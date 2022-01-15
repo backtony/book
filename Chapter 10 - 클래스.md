@@ -21,7 +21,7 @@
 ## 클래스 체계 <a name = "2"></a>
 표준 자바 관례에 따르면 클래스 안의 변수 목록 순서는 다음과 같다.  
 
-> static public 상수 - private 변수 - private 인스턴스 변수 - public 변수(필요한 경우는 거의 없다.)
+> static public 상수 - static private 변수 - private 인스턴스 변수 - public 변수(필요한 경우는 거의 없다.)
 
 변수 목록 이후에는 public 함수가 나오고 private 함수는 자신을 호출하는 public 함수 직후에 나온다.  
 즉, 추상화 단계가 순차적으로 내려간다.  
