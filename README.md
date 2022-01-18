@@ -17,3 +17,4 @@ Clean Code를 읽고 정리하기 위해 만든 저장소입니다.
 * [11장 - 시스템](https://github.com/backtony/clean-code/blob/master/Chapter%2011%20-%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md) 
 * [12장 - 창발성](https://github.com/backtony/clean-code/blob/master/Chapter%2012%20-%20%EC%B0%BD%EB%B0%9C%EC%84%B1.md) 
 * [13장 - 동시성](https://github.com/backtony/clean-code/blob/master/Chapter%2013%20-%20%EB%8F%99%EC%8B%9C%EC%84%B1.md) 
+* [17장 - 냄새와 휴리스틱](https://github.com/backtony/clean-code/blob/master/Chapter%2017%20-%20%EB%83%84%EC%83%88%EC%99%80%20%ED%9C%B4%EB%A6%AC%EC%8A%A4%ED%8B%B1.md) 
