@@ -9,3 +9,4 @@
 * [3장 - JUnit5, AssertJ, Mockito](https://github.com/backtony/book/blob/master/TDD/Chapter%203%20-%20JUnit5%2C%20AssertJ%2C%20Mockito.md) 
 * [4장 - 대역](https://github.com/backtony/book/blob/master/TDD/Chapter%204%20-%20%EB%8C%80%EC%97%AD.md) 
 * [5장 - 테스트 설계와 테스트 범위 및 종류](https://github.com/backtony/book/blob/master/TDD/Chapter%205%20-%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%84%A4%EA%B3%84%EC%99%80%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%B2%94%EC%9C%84%20%EB%B0%8F%20%EC%A2%85%EB%A5%98.md) 
+* [6장 - 테스트 코드와 유지보수](https://github.com/backtony/book/blob/master/TDD/Chapter%206%20-%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%BD%94%EB%93%9C%EC%99%80%20%EC%9C%A0%EC%A7%80%EB%B3%B4%EC%88%98.md) 
