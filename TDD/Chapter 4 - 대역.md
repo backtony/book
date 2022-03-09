@@ -1,6 +1,11 @@
+## 목차
+- [대역의 필요성](#1)
+- [대역을 이용한 테스트](#2)
+- [대역의 종류](#3)
 
+---
 
-## 대역의 필요성
+## 대역의 필요성 <a name = "1"></a>
 테스트를 작성하다 보면 외부 요인이 필요한 시점이 있다.
 + 테스트 대상에서 파일 시스템을 사용
 + 테스트 대상에서 DB로부터 데이터를 조회하거나 데이터를 추가
@@ -97,7 +102,7 @@ public class AutoDebitRegisterTest {
 하지만 업체에서 해당 카드 번호를 제거한다면 테스트는 실패하게 된다.  
 이렇게 테스트 대상에서 의존하는 요인 때문에 테스트가 어려울 때는 대역을 써서 테스트를 진행한다.
 
-## 대역을 이용한 테스트
+## 대역을 이용한 테스트 <a name = "2"></a>
 ```java
 public class StubCardNumberValidator extends CardNumberValidator {
     private String invalidNo;
@@ -169,7 +174,7 @@ public class AutoDebitRegister_Stub_Test {
 ```
 정리하자면, 실제 코드는 외부와 연동해서 사용하지만 테스트할 때는 해당 기능을 대신하는 것을 만들어 테스트에 사용한다는 것이다.  
 
-## 대역의 종류
+## 대역의 종류 <a name = "3"></a>
 
 종류|설명
 ---|---
