@@ -46,12 +46,12 @@ __잘 정돈된 견고한 시스템을 만들기 위해서는 설정 논리와 �
 
 ### Main 분리 <a name = "3"></a>
 
-![그림1](https://backtony.github.io/assets/img/post/book/clean/11-1.PNG)  
+![그림1](../images/clean/11-1.PNG)  
 생성과 사용을 분리하는 가장 간단한 방법은 모든 생성과 관련된 로직을 main이나 main이 호출하는 모듈로 옮기는 방식이다.  
 애플리케이션에서는 사용할 모든 객체가 생성되었고 모든 의존성이 연결되었을 것이라고 여기고 그저 객체를 사용할 뿐이다.  
 
 ### 팩토리 <a name = "4"></a>
-![그림2](https://backtony.github.io/assets/img/post/book/clean/11-2.PNG)  
+![그림2](../images/clean/11-2.PNG)  
 객체가 생성되는 시점을 애플리케이션이 결정하는 방식을 사용하기 위해서는 Abstract Factory 패턴을 사용한다.  
 그러면 객체를 생성하는 시점은 애플리케이션이 결정하지만, 객체를 생성하는 코드는 애플리케이션이 모르게 감출 수 있다.  
 
